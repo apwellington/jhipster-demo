@@ -16,8 +16,12 @@ import { DemoBootstrapAppRoutingModule } from './app-routing.module';
 import { DemoBootstrapHomeModule } from './home/home.module';
 import { DemoBootstrapAccountModule } from './account/account.module';
 import { DemoBootstrapEntityModule } from './entities/entity.module';
+
+// bootstrap module
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
     imports: [
@@ -28,10 +32,11 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         DemoBootstrapCoreModule,
         DemoBootstrapHomeModule,
         DemoBootstrapAccountModule,
-        DemoBootstrapEntityModule
+        DemoBootstrapEntityModule,
+        NgbModule.forRoot() // bootstrap module
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
-    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
+    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent, SliderComponent],
     providers: [
         {
             provide: HTTP_INTERCEPTORS,

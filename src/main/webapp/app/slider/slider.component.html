@@ -1,0 +1,197 @@
+   
+            <div class="row">
+                    <div class="col-md-12" >
+                            <ngb-carousel *ngIf="images" >
+                                    <ng-template ngbSlide>
+                                      <img [src]="images[0]" alt="Random first slide"  class="w-100 h-75">
+                                      <div class="carousel-caption">
+                                        <h2>10 seconds between slides...</h2>
+                                        <p>This carousel uses customized default values.</p>
+                                      </div>
+                                    </ng-template>
+                                    <ng-template ngbSlide>
+                                      <img [src]="images[1]" alt="Random second slide"  class="w-100 h-75">
+                                      <div class="carousel-caption">
+                                        <h2>No mouse events...</h2>
+                                        <p>This carousel doesn't pause or resume on mouse events</p>
+                                      </div>
+                                    </ng-template>
+                                    <ng-template ngbSlide>
+                                      <img [src]="images[2]"  alt="Random third slide"  class="w-100 h-75">
+                                      <div class="carousel-caption">
+                                        <h2>No keyboard...</h2>
+                                        <p>This carousel uses customized default values.</p>
+                                      </div>
+                                    </ng-template>
+                                    <ng-template ngbSlide>
+                                      <img [src]="images[3]" alt="Random fourth slide"  class="w-100 h-75">
+                                      <div class="carousel-caption">
+                                        <h2>And no wrap after last slide.</h2>
+                                        <p>This carousel uses customized default values.</p>
+                                      </div>
+                                    </ng-template>
+                                  </ngb-carousel>
+                    </div>
+                  </div> 
+    
+
+    <div class="row align-items-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"><hr></div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div style="background-color: #03DAc6;">
+            <div class="container py-4">
+              <div class="row py-4 d-flex align-items-center"> 
+                    <div class="col-sm-3">
+                            <div ngbDropdown class="dropdown">
+                                    <button ngbDropdownToggle class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Cantidad Personas
+                                    </button>
+                                    <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="col-sm-3">
+                            <div ngbDropdown class="dropdown">
+                                    <button ngbDropdownToggle class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Cantidad Personas
+                                    </button>
+                                    <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                            </div>
+        
+                    </div>
+                    
+                    <div class="col-sm-3">
+                            <div ngbDropdown class="dropdown">
+                                    <button ngbDropdownToggle class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Cantidad Personas
+                                    </button>
+                                    <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                            </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                            <button type="button" class="btn btn-primary">Buscar</button>
+                    </div>
+     
+              </div>
+            </div>
+    </div>
+
+    <div class="album py-5">
+            <div class="container">
+    
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+               
+               
+                
+              </div>
+            </div>
+          </div>
+
+    
